@@ -9,12 +9,7 @@ O framework utilizado para implementação deste desafio foram:
 ## Configuração de Ambiente
 ** Verifique se já existe o Node.js instalado em sua máquina **
 
-Após fazer o clone do projeto, navegue até a pasta ..\__test__ e execute os seguintes comandos para instalação das depedências:
-- npm install jest @types/jest -D
-- npm install jest @types/jest ts-jest -D
-- npx jest --init
-- npm install supertest --save-dev
-- npm install -D ts-node
+Após fazer o clone do projeto, navegue até a pasta ..\__test__ e execute o seguinte comando para instalação das depedências:
 - npm i
 
 No arquivo package.json gerado, verifique se o script "test": "jest" foi criado, caso não, adicione esta dependencia.
